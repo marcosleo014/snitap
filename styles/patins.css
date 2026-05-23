@@ -11,6 +11,7 @@
     }
 
     img[src*="ellipse"] {
+        width: 100%;
         top: 13px;
         left: 13px;
         z-index: 0;

@@ -18,6 +18,9 @@ footer {
                 transform: rotate(90deg);
             }
         }
+        span {
+            font: var(--text);
+        }
     }
 
     ul {
