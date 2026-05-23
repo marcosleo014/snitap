@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --snitap-sun: #ffcd1e;
+    --snitap-sky-mid: #06b6d4;
+    --snitap-sky-light: #67e8f9;
+    --snitap-joy-mid: #db2777;
+    --snitap-joy-light: #f472b6;
+    --snitap-leaf-mid: #16a34a;
+    
+    --color-text: #000000;
+    --color-highlights: #000000;
+    --color-background: #fafafa;
+
+    --ff-syne: "Syne", sans-serif;
+    --text-h1: 700 64px/125% var(--ff-syne);
+    --text-h2: 700 40x/120% var(--ff-syne);
+    --text: 700 20px/130% var(--ff-syne);
+    --ff-montserrat: "Montserrat", sans-serif;
+    --text-button: 500 16px/150% var(--ff-montserrat);
+    --text-span: 500 14px/150% var(--ff-montserrat);
+    --ff-inter: "Inter", sans-serif;
+    --text-icon: 500 12px/130% var(--ff-inter);
+}
+
+/* texto e fontes */
+h1 {
+    font: var(--text-h1);
+}
+h2 {
+    font: var(--text-h2);
+}
+html, button {
+    font: var(--text-button);
+}
