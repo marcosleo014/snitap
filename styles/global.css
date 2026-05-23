@@ -37,3 +37,8 @@ h2 {
 html, button {
     font: var(--text-button);
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

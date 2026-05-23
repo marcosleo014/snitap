@@ -1,0 +1,37 @@
+.navegation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+
+    img {
+        width: 32px;
+        height: 32px;
+        
+        transition: transform 0.5s;
+    }
+    
+    a:nth-child(2) {
+        position: relative;
+        span {
+            background-color: var(--snitap-sun);
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font: var(--text-icon);
+        }
+    }
+
+    img[src*="logo"]:hover {
+        transform: rotate(90deg);
+    }
+    img[src*="bag"]:hover {
+        transform: rotate(-30deg);
+    }
+}
