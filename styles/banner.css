@@ -1,0 +1,34 @@
+.banner {
+    width: 100%;
+    margin-block: 40px;
+    padding-block: 16px;
+    background: linear-gradient( 45deg,
+        var(--snitap-joy-light),
+        var(--snitap-sky-light)
+    );
+    background-size: 200%;
+    background-position: 0% 50%;
+    animation: bg-gradient 15s infinite;
+
+    span {
+        font: var(--text);
+    }
+    .scroller {
+        display: flex;
+        gap: 24px;
+        align-items: center;    
+        animation: textBanner 2s linear infinite;
+    }
+}
+
+@keyframes textBanner {
+    to {
+        transform: translate(-131px);
+    }
+}
+
+@keyframes bg-gradient {
+    50% {
+        background-position: 100% 50%;
+    }
+}
