@@ -22,7 +22,7 @@ h1 {
 
 .animation-title span {
     display: block;
-    animation: title 6s infinite;
+    animation: title 6s 2s infinite;
 }
 
 @keyframes title {

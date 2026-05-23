@@ -27,6 +27,10 @@
     --text-icon: 500 12px/130% var(--ff-inter);
 }
 
+body {
+    overflow: hidden;
+}
+
 /* texto e fontes */
 h1 {
     font: var(--text-h1);

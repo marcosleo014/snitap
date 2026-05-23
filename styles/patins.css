@@ -1,0 +1,48 @@
+.animation-patins {
+    height: 488px;
+    width: 488px;
+    position: relative;
+    /* overflow: hidden; */
+
+    img {
+        position: absolute;
+        opacity: 0;
+        animation: patinsIn 3s forwards;
+    }
+
+    img[src*="ellipse"] {
+        top: 13px;
+        left: 13px;
+        z-index: 0;
+        transform: translateX(894px);
+        animation-delay: 250ms;
+    }
+    img[src*="patins"] {
+        width: 100%;
+        transform: translateX(520px);
+        z-index: 1;
+        opacity: 0.6;
+    }
+    img[src*="stars1"] {
+        top: 148px;
+        left: 8px;
+        z-index: 0;
+        transform: translateX(720px);
+    }
+    img[src*="stars2"] {
+        bottom: 158px;
+        right: 2px;
+        transform: translateX(720px);
+        z-index: 0;
+    }
+}
+
+@keyframes patinsIn {
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
