@@ -1,0 +1,37 @@
+.buttons {
+    margin-top: 48px;
+    display: flex;
+    gap: 33px;
+    
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 250ms;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    a:nth-child(1) {
+        background-color: var(--snitap-sun);
+        padding: 24px 48px;
+        gap: 12px;
+        border-radius: 80px;
+    }
+    a:nth-child(2) {
+        gap: 12px;
+        img {
+            padding: 24px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.shadow {
+    box-shadow: 
+    0 2px 5px rgb(0, 0, 0, 0.1),
+    0 9px 9px rgb(0, 0, 0, 0.09),
+    0 20px 12px rgb(0, 0, 0, 0.05),
+    0 36px 15px rgb(0, 0, 0, 0.01);
+}
