@@ -21,7 +21,7 @@
         width: 100%;
         transform: translateX(520px);
         z-index: 1;
-        opacity: 0.6;
+        opacity: 1;
     }
     img[src*="stars1"] {
         top: 148px;

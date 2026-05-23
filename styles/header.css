@@ -2,5 +2,7 @@ body>header {
     display: flex;
     padding-block: 40px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
 }
