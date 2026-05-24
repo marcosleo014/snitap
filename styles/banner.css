@@ -21,6 +21,12 @@
     }
 }
 
+@media (width <= 1280px) {
+    .banner {
+        margin-block: 24px;
+    }
+}
+
 @keyframes textBanner {
     to {
         transform: translate(-131px);

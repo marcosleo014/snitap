@@ -81,3 +81,69 @@ h1 {
         transform: translateY(-240px);
     }
 }
+
+@media (width <= 1280px) {
+    h1 {
+        width: 312px;
+    }
+    .animation-title {
+        height: 40px;
+    }
+
+    @keyframes title {
+    /* radical static */
+    0%, 22% {
+        transform: translateY(0);
+    }
+    /* divertida in */
+    24% {
+        transform: translateY(calc(-40px - 6px));
+    }
+    26% {
+        transform: translateY(calc(-40px + 6px));
+    }
+    28% {
+        transform: translateY(calc(-40px - 3px));
+    }
+    30% {
+        transform: translateY(calc(-40px +3px));
+    }
+    /* divertida static */
+    33%, 55% {
+        transform: translateY(-40px);
+    }
+    /* saudável in */
+    57% {
+        transform: translateY(calc(-80px - 6px));
+    }
+    59% {
+        transform: translateY(calc(-80px + 6px));
+    }
+    61% {
+        transform: translateY(calc(-80px - 3px));
+    }
+    63% {
+        transform: translateY(calc(-80px + 3px));
+    }
+    /* saudável static */
+    66%, 88% {
+        transform: translateY(-80px);
+    }
+    /* radical in */
+    91% {
+        transform: translateY(calc(-120px - 6px));
+    }
+    93% {
+        transform: translateY(calc(-120px + 6px));
+    }
+    95% {
+        transform: translateY(calc(-120px - 3px));
+    }
+    97% {
+        transform: translateY(calc(-120px + 3px));
+    }
+    100% {
+        transform: translateY(-120px);
+    }
+    }
+}

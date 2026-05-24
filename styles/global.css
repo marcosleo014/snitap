@@ -27,6 +27,15 @@
     --text-icon: 500 12px/130% var(--ff-inter);
 }
 
+@media (width <= 1280px) {
+    :root {
+    --text-h1: 700 32px/125% var(--ff-syne);
+    --text-h2: 700 24px/120% var(--ff-syne);
+    
+    --text-span: 500 12px/150% var(--ff-montserrat);
+    }
+}
+
 body {
     overflow-x: hidden;
 }
