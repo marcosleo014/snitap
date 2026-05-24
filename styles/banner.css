@@ -1,5 +1,6 @@
 .banner {
     width: 100%;
+    margin-inline: auto;
     margin-block: 40px;
     padding-block: 16px;
     background: linear-gradient( 45deg,
@@ -15,6 +16,7 @@
     }
     .scroller {
         display: flex;
+        justify-content: center;
         gap: 24px;
         align-items: center;    
         animation: textBanner 2s linear infinite;
